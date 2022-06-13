@@ -1,0 +1,158 @@
+    /* nav-start */
+    
+    .navbar {
+        background: #293b3c;
+        opacity: .7;
+        border-bottom: 3px solid #008ed6;
+    }
+    
+    .nav-item .nav-link {
+        font-size: 20px;
+        color: white !important;
+        transition: .5s;
+    }
+    
+    .nav-item .nav-link:hover {
+        color: #fb5200 !important;
+    }
+    
+    #home-section {
+        background: url('../img/home.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        ;
+    }
+    
+    .darkOverly {
+        background: rgba(0, 0, 0, 0.7)
+    }
+    /* nav-End */
+    /* Home-Section-Start */
+    
+    #home-section .fa-check {
+        background: #fff;
+        color: #008ed6;
+        padding: 4px;
+        font-size: 30px;
+        border-radius: 5px;
+    }
+    
+    .inner {
+        padding-top: 150px !important;
+        padding-bottom: 100px !important;
+    }
+    
+    .card-body img {
+        margin-top: -50px;
+    }
+    /* Home-Section-End */
+    /* Explore-Head-Section-Start */
+    
+    #explore-head-section {
+        background: #333333;
+        color: white;
+    }
+    
+    #explore-head-section h1 {
+        position: relative;
+    }
+    
+    #explore-head-section h1:after {
+        content: "";
+        width: 200px;
+        border-bottom: 2px solid #fb5200;
+        bottom: -6px;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+    
+    #explore-head-section p {
+        margin-top: 20px;
+    }
+    /* Explore-Head-Section-End */
+    /* Explore-Main-Section-Start */
+    
+    #explore-main-section .fa-check {
+        background: #333;
+        color: white;
+        padding: 4px;
+        font-size: 30px;
+        border-radius: 5px;
+    }
+    
+    #create-main-section .fa-check {
+        background: #000;
+        color: white;
+        padding: 4px;
+        font-size: 30px;
+        border-radius: 5px;
+    }
+    /* Explore-Main-Section-End */
+    /* Share-Head-Section-End */
+    
+    #share-head-section h1 {
+        position: relative;
+    }
+    
+    #share-head-section h1:after {
+        content: "";
+        width: 200px;
+        border-bottom: 2px solid #fb5200;
+        bottom: -6px;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+    
+    #share-head-section p {
+        margin-top: 20px;
+    }
+    /* Share-Head-Section-End */
+    
+    #footer {
+        background: #333333;
+        color: white;
+    }
+    
+    #footer .Icon {
+        margin-top: 20px;
+    }
+    
+    #footer .Icon a i {
+        width: 40px;
+        height: 40px;
+        background: red;
+        padding-top: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: white;
+        border-radius: 50%;
+    }
+    
+    #footer h5 {
+        margin-left: 10px;
+    }
+    
+    #footer .Icon .fa-facebook {
+        background: green !important;
+    }
+    
+    #footer .Icon .fa-twitter {
+        background: red !important;
+    }
+    
+    #footer .Icon .fa-instagram {
+        background: blue !important;
+    }
+    
+    #footer .Icon .fa-linkedin {
+        background: gray !important;
+    }
+    
+    #footer .Icon .fa:hover {
+        background: #fb5200 !important;
+    }
